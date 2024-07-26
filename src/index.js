@@ -1,1 +1,3 @@
-console.log('running...');
+import { homeLoad } from './homepage.js';
+
+homeLoad();
