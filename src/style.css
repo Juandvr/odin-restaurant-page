@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: beige;
+}
+
+header {
+    background-color: rgb(141, 171, 197);
+}
+
+#content {
+    background-color: rgb(162, 200, 234);
+}

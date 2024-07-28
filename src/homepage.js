@@ -2,16 +2,33 @@ function homeLoad() {
     const content = document.getElementById('content');
 
     const main = document.createElement('div');
-    main.innerHTML = '<h1>Welcome to the restaurant</h1>';
+    main.innerHTML = `
+        <h1>The best food for you</h1>
+        <p>Have a great time here</p>
+        <button>See menu<button>
+    `;
     content.appendChild(main);
 
-    const section = document.createElement('div');
-    section.innerHTML = '<h3>Special dishes</h3><img alt="dish#1"><img alt="dish#2"><img alt="dish#3"><button>See menu</button>';
-    content.appendChild(section);
+    const menu = document.createElement('div');
+    menu.innerHTML = `
+        <h3>Popular dishes</h3>
+        <div>
+        <img alt="dish#1">
+        <img alt="dish#2">
+        <img alt="dish#3">
+        <button>Explore menu</button>
+        </div>
+    `;
+    content.appendChild(menu);
 
-    const location = document.createElement('div');
-    location.innerHTML = '<h4>Av. bread 234</h4>';
-    content.appendChild(location);
+    const about = document.createElement('div');
+    about.innerHTML = `
+        <img alt="map">
+        <h2>Trust in us</h2>
+        <p>Information about the restaurant</p>
+    `;
+    content.appendChild(about);
+
 }
 
 export { homeLoad };
