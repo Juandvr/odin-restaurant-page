@@ -1,17 +1,108 @@
+@font-face {
+    font-family: 'playfair';
+    src: url('./playfair.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'creamcake';
+    src: url('./creamcake.otf');
+    font-style: normal;
+}
+
+:root {
+    --primary-color: rgb(239, 237, 234);
+    --secondary-color: rgb(234, 230, 230);
+}
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
 
-body {
-    background-color: beige;
-}
+/* Style for the header */
 
 header {
-    background-color: rgb(141, 171, 197);
+    background-color: var(--primary-color);
+    height: 5em;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
 }
 
-#content {
-    background-color: rgb(162, 200, 234);
+.logo {
+    grid-column: 1 / 2;
+    align-self: center;
+    justify-self: end;
+    font-family: 'creamcake';
+    font-size: xxx-large;
+}
+
+nav {
+    grid-column: 3 / 3;
+    align-self: center;
+    justify-self: center;
+}
+
+button {
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+}
+
+nav > button {
+    border: 0;
+    margin: 5px;
+    width: 5em;
+    padding: 10px;
+}
+
+nav > button:hover {
+    background-color: rgb(228, 225, 213);
+    cursor: pointer;
+}
+
+/* Style for the hero */
+
+#main {
+    background: url('./background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 35em;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(3, auto);
+}
+
+#main > h1 {
+    grid-row: 1 / 2;
+    align-self: end;
+    justify-self: center;
+    font-family: 'playfair';
+    font-size: 70px;
+}
+
+#main > p {
+    grid-row: 2 / 2;
+    align-self: start;
+    justify-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#main > button {
+    grid-row: 3 / 3;
+    align-self: start;
+    justify-self: center;
+    background-color: rgb(114, 65, 63);
+    color: whitesmoke;
+    border: 0;
+    width: 11em;
+}
+
+#main > button:hover {
+    background-color: rgb(102, 55, 53);
+    cursor: pointer;
 }
