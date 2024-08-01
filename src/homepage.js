@@ -15,11 +15,21 @@ function homeLoad() {
     menu.innerHTML = `
         <h3>Popular dishes</h3>
         <div>
-        <img alt="dish#1">
-        <img alt="dish#2">
-        <img alt="dish#3">
-        <button>Explore menu</button>
+        <img  src="../src/grilledpasta.jpg" alt="dish#1">
+        <p>Grilled pasta</p>
+        <p>$35000</p>
         </div>
+        <div>
+        <img src="../src/martinisteak.jpg" alt="dish#2">
+        <p>Martini steak</p>
+        <p>$40000</p>
+        </div>
+        <div>
+        <img src="../src/burger.jpg" alt="dish#3">
+        <p>Pastrami burger</p>
+        <p>$24000</p>
+        </div> 
+        <button>Explore menu</button>
     `;
     content.appendChild(menu);
 
