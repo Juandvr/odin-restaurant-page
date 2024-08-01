@@ -29,7 +29,7 @@ function homeLoad() {
         <p>Pastrami burger</p>
         <p>$24000</p>
         </div> 
-        <button>Explore menu</button>
+        <button>Explore Menu</button>
     `;
     content.appendChild(menu);
 
