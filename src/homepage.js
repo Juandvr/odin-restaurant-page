@@ -15,17 +15,17 @@ function homeLoad() {
     menu.innerHTML = `
         <h3>Popular dishes</h3>
         <div>
-        <img  src="../src/grilledpasta.jpg" alt="dish#1">
+        <img  src="../src/images/grilledpasta.jpg" alt="dish#1">
         <p>Grilled pasta</p>
         <p>$35000</p>
         </div>
         <div>
-        <img src="../src/martinisteak.jpg" alt="dish#2">
+        <img src="../src/images/martinisteak.jpg" alt="dish#2">
         <p>Martini steak</p>
         <p>$40000</p>
         </div>
         <div>
-        <img src="../src/burger.jpg" alt="dish#3">
+        <img src="../src/images/burger.jpg" alt="dish#3">
         <p>Pastrami burger</p>
         <p>$24000</p>
         </div> 
@@ -36,9 +36,11 @@ function homeLoad() {
     const about = document.createElement('div');
     about.setAttribute('id', 'about');
     about.innerHTML = `
-        <img alt="map">
+        <img src="../src/images/map.jpg" alt="map">
+        <div>
         <h2>Trust in us</h2>
         <p>Information about the restaurant</p>
+        </div>
     `;
     content.appendChild(about);
 

@@ -65,7 +65,7 @@ nav > button:hover {
 /* Style for the hero */
 
 #main {
-    background: url('./background.jpg');
+    background: url('./images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -150,4 +150,30 @@ img {
 
 #menu > button:hover {
     cursor: pointer;
+}
+
+/* Style for the about section */
+
+#about {
+    background-color: var(--primary-color);
+    height: 35em;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-content: center;
+}
+
+#about > img {
+    width: 20rem;
+    justify-self: center;
+}
+
+/* Style for the footer */
+
+footer {
+    background-color: rgb(114, 65, 63);
+    color: whitesmoke;
+    height: 8em;
+    display: grid;
+    align-content: center;
+    justify-content: center;
 }
