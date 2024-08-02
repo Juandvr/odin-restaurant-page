@@ -1,5 +1,6 @@
 function loadHome() {
     const content = document.getElementById('content');
+    content.innerHTML = '';
 
     const main = document.createElement('div');
     main.setAttribute('id', 'main');
