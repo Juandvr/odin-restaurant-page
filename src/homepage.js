@@ -1,4 +1,4 @@
-function homeLoad() {
+function loadHome() {
     const content = document.getElementById('content');
 
     const main = document.createElement('div');
@@ -46,4 +46,4 @@ function homeLoad() {
 
 }
 
-export { homeLoad };
+export { loadHome };

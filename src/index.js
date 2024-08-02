@@ -1,4 +1,4 @@
-import { homeLoad } from './homepage.js';
+import { loadHome } from './homepage.js';
 import './style.css';
 
-homeLoad();
+loadHome();
