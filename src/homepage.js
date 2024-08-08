@@ -17,18 +17,18 @@ function loadHome() {
         <h3>Popular dishes</h3>
         <div>
         <img  src="../src/images/grilledpasta.jpg" alt="dish#1">
-        <p>Grilled pasta</p>
-        <p>$35000</p>
+        <p>Grilled Pasta.</p>
+        <p>$18000</p>
         </div>
         <div>
         <img src="../src/images/martinisteak.jpg" alt="dish#2">
-        <p>Martini steak</p>
-        <p>$40000</p>
+        <p>Martini Steak.</p>
+        <p>$26000</p>
         </div>
         <div>
         <img src="../src/images/burger.jpg" alt="dish#3">
-        <p>Pastrami burger</p>
-        <p>$24000</p>
+        <p>Pastrami Burger.</p>
+        <p>$22000</p>
         </div> 
         <button>Explore Menu</button>
     `;
